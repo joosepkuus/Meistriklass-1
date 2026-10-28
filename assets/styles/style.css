@@ -72,7 +72,7 @@ body {
 }
 
 .clock {
-  poition:relative;
+  position:relative;
   flex: 1;
 
   display: flex;
@@ -83,7 +83,7 @@ body {
   padding: 0.25rem;
   background-color: lightpink;
 
-  transition: flex 0.5s ease-out cubic-breizer
+  transition: flex 0.5s ease-out cubic-breizer(0.68, -0.55, 00.25rem)
 }
 
 .clock__unit:nth-child(2) {
